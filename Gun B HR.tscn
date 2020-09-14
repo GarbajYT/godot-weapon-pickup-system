@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://textures/Gun B.tres" type="Material" id=1]
+
+[sub_resource type="CubeMesh" id=1]
+size = Vector3( 0.1, 0.2, 1 )
+
+[node name="Gun B HR" type="MeshInstance"]
+mesh = SubResource( 1 )
+material/0 = ExtResource( 1 )
